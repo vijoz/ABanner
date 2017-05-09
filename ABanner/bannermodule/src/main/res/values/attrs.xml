@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text" format="string"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="textColor" format="reference|color"/>
+    <attr name="textAlign" format="string"/>
+    <attr name="normalBgColor" format="reference|color"/>
+    <attr name="pressedBgColor" format="reference|color"/>
+    <attr name="border" format="dimension"/>
+    <attr name="borderColor" format="reference|color"/>
+    <attr name="padding" format="dimension"/>
+    <attr name="paddingLeft" format="dimension"/>
+    <attr name="paddingTop" format="dimension"/>
+    <attr name="paddingRight" format="dimension"/>
+    <attr name="paddingBottom" format="dimension"/>
+    <attr name="bgColor" format="reference|color"/>
+    <attr name="progress" format="integer"/>
+    <attr name="progressColor" format="reference|color"/>
+    <attr name="clickable" format="boolean"/>
+    <declare-styleable name="Banner">
+        <attr name="default_image" format="reference"/>
+        <attr name="delay_time" format="dimension"/>
+        <attr name="is_auto_play" format="boolean"/>
+        <attr name="indicator_width" format="dimension"/>
+        <attr name="indicator_height" format="dimension"/>
+        <attr name="indicator_margin" format="dimension"/>
+        <attr name="indicator_drawable_selected" format="reference"/>
+        <attr name="indicator_drawable_unselected" format="reference"/>
+        <!--<attr name="indicator_animator" format="reference" />-->
+        <!--<attr name="indicator_animator_reverse" format="reference" />-->
+    </declare-styleable>
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension"/>
+        <attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr>
+        <attr name="shadow_left" format="reference"/>
+        <attr name="shadow_right" format="reference"/>
+        <attr name="shadow_bottom" format="reference"/>
+    </declare-styleable>
+    <attr name="SwipeBackLayoutStyle" format="reference"/>
+
+    <declare-styleable name="TileWidget">
+        <attr name="text"/>
+        <attr name="textSize"/>
+        <attr name="normalBgColor"/>
+        <attr name="pressedBgColor"/>
+        <attr name="icon" format="reference"/>
+        <attr name="iconSize" format="dimension"/>
+        <attr name="padding"/>
+        <attr name="bgCornerRadius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="KyButton">
+        <attr name="text"/>
+        <attr name="textSize"/>
+        <attr name="textAlign"/>
+        <attr name="border"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="normalImage" format="reference"/>
+        <attr name="pressedImage" format="reference"/>
+        <attr name="normalBgColor"/>
+        <attr name="pressedBgColor"/>
+        <attr name="normalTextColor" format="reference|color"/>
+        <attr name="pressedTextColor" format="reference|color"/>
+        <attr name="normalBorderColor" format="reference|color"/>
+        <attr name="pressedBorderColor" format="reference|color"/>
+        <attr name="padding"/>
+        <attr name="paddingLeft"/>
+        <attr name="paddingTop"/>
+        <attr name="paddingRight"/>
+        <attr name="paddingBottom"/>
+        <attr name="clickable"/>
+    </declare-styleable>
+    <declare-styleable name="KyTextView">
+        <attr name="text"/>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+        <attr name="textAlign"/>
+        <attr name="border"/>
+        <attr name="borderColor"/>
+        <attr name="radius"/>
+        <attr name="bgColor"/>
+        <attr name="padding"/>
+        <attr name="paddingLeft"/>
+        <attr name="paddingTop"/>
+        <attr name="paddingRight"/>
+        <attr name="paddingBottom"/>
+    </declare-styleable>
+    <declare-styleable name="PlaySeekBar">
+        <attr name="normalThumb" format="reference"/>
+        <attr name="pressedThumb" format="reference"/>
+        <attr name="draggable" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="KyProgressBar">
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="bgColor"/>
+        <attr name="border"/>
+        <attr name="borderColor"/>
+        <attr name="progress"/>
+        <attr name="progressColor"/>
+    </declare-styleable>
+    <declare-styleable name="ReadDownloadProgressBar">
+        <attr name="bgColor"/>
+        <attr name="progressColor"/>
+        <attr name="progress"/>
+    </declare-styleable>
+    <declare-styleable name="KyLoading">
+        <attr name="text"/>
+        <attr name="textSize"/>
+        <attr name="textColor"/>
+        <attr name="image" format="reference"/>
+        <attr name="imageHeight" format="dimension"/>
+        <attr name="spacing" format="dimension"/>
+        <attr name="backgroundColor" format="reference|color"/>
+        <attr name="cycle" format="integer"/>
+        <attr name="cornerRadius"/>
+        <attr name="paddingLeft"/>
+        <attr name="paddingTop"/>
+        <attr name="paddingRight"/>
+        <attr name="paddingBottom"/>
+    </declare-styleable>
+    <declare-styleable name="KyDialogLayout">
+        <attr name="cornerRadius"/>
+        <attr name="bgColor"/>
+        <attr name="border"/>
+        <attr name="borderColor"/>
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr name="radius"/>
+        <attr name="leftTopRadius" format="dimension"/>
+        <attr name="rightTopRadius" format="dimension"/>
+        <attr name="rightBottomRadius" format="dimension"/>
+        <attr name="leftBottomRadius" format="dimension"/>
+        <attr name="src" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="KyLinearLayout">
+        <attr name="border"/>
+        <attr name="normalBorderColor"/>
+        <attr name="pressedBorderColor"/>
+        <attr name="radius"/>
+        <attr name="leftTopRadius"/>
+        <attr name="rightTopRadius"/>
+        <attr name="rightBottomRadius"/>
+        <attr name="leftBottomRadius"/>
+        <attr name="normalBgColor"/>
+        <attr name="pressedBgColor"/>
+        <attr name="clickable"/>
+    </declare-styleable>
+    <declare-styleable name="KyRelativeLayout">
+        <attr name="border"/>
+        <attr name="normalBorderColor"/>
+        <attr name="pressedBorderColor"/>
+        <attr name="radius"/>
+        <attr name="normalBgColor"/>
+        <attr name="pressedBgColor"/>
+    </declare-styleable>
+    <declare-styleable name="KyEditText">
+        <attr name="border"/>
+        <attr name="borderColor"/>
+        <attr name="radius"/>
+    </declare-styleable>
+    <declare-styleable name="kyswitch">
+        <attr name="onBgColor" format="reference|color"/>
+        <attr name="offBgColor" format="reference|color"/>
+        <attr name="thumbColor" format="reference|color"/>
+        <attr name="thumbMarginLeft" format="dimension"/>
+        <attr name="thumbMarginTop" format="dimension"/>
+        <attr name="thumbMarginRight" format="dimension"/>
+        <attr name="thumbMarginBottom" format="dimension"/>
+        <attr name="paddingLeft"/>
+        <attr name="paddingTop"/>
+        <attr name="paddingRight"/>
+        <attr name="paddingBottom"/>
+    </declare-styleable>
+    <declare-styleable name="kysegmentview">
+        <attr name="padding"/>
+        <attr name="paddingLeft"/>
+        <attr name="paddingTop"/>
+        <attr name="paddingRight"/>
+        <attr name="paddingBottom"/>
+        <attr name="cornerRadius"/>
+        <attr name="border"/>
+        <attr name="textSize"/>
+        <attr name="buttonTexts" format="string"/>
+        <attr name="buttonValues" format="string"/>
+        <attr name="backgroundColor"/>
+        <attr name="style" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="texttColor" format="color"/>
+        <attr name="texttSize" format="dimension"/>
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="sttyle">
+            <enum name="TIME_TICKER" value="0"></enum>
+            <enum name="PROGRESS" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="item_count" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="RotatImageView">
+        <attr name="imageSrc" format="reference"/>
+    </declare-styleable>
+
+    <!--录制视频控件-->
+    <declare-styleable name="MovieRecorderView">
+        <!-- 开始是否打开摄像头 -->
+        <attr name="is_open_camera" format="boolean"/>
+        <!-- 一次拍摄最长时间 -->
+        <attr name="record_max_time" format="integer"/>
+        <!-- 视频分辨率宽度 -->
+        <attr name="record_width" format="integer"/>
+        <!-- 视频分辨率高度 -->
+        <attr name="record_height" format="integer"/>
+    </declare-styleable>
+
+    <!-- FlickeringTextView -->
+    <declare-styleable name="FlickeringTextView">
+        <attr name="flickeringColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="LineEditeText">
+        <attr name="lineColorEt" format="color"/>
+    </declare-styleable>
+
+</resources>
